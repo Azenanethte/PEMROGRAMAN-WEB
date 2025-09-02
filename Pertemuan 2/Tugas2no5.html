@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabel Rowspan & Colspan</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px;
+    }
+    td {
+      border: 2px solid white;
+      width: 120px;
+      height: 60px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    .bg1 { background: #f0f0f0; }       /* abu-abu muda */
+    .bg2 { background: #9de2b2; }       /* hijau muda */
+    .bg3 { background: #7e3aa6; color: white; } /* ungu */
+    .bg4 { background: #f0f0f0; }       /* abu-abu */
+  </style>
+</head>
+<body>
+
+<h3>5. Tabel dengan Rowspan &amp; Colspan</h3>
+<table>
+  <tr>
+    <td class="bg1"></td>
+    <td class="bg2" colspan="2">colspan = "2"</td>
+  </tr>
+  <tr>
+    <td class="bg3" rowspan="2">rowspan = "2"</td>
+    <td class="bg4"></td>
+    <td class="bg4"></td>
+  </tr>
+  <tr>
+    <td class="bg4"></td>
+    <td class="bg4"></td>
+  </tr>
+</table>
+
+</body>
+</html>
