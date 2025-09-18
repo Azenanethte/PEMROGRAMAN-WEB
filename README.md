@@ -43,3 +43,10 @@ Kedua, judul "Galeri Foto Lucu" menggunakan class `text-3xl font-bold mb-10 text
 Selanjutnya, bagian inti dari galeri ada pada `<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">`. Inilah yang mengatur tata letak grid. Dengan `grid`, kontainer menggunakan CSS Grid. Default-nya hanya ada satu kolom (`grid-cols-1`) sehingga di layar kecil foto tampil satu per baris. Namun, pada layar lebih besar, jumlah kolom bertambah: dua kolom di layar berukuran "small" ke atas (`sm:grid-cols-2`) dan tiga kolom di layar berukuran "medium" ke atas (`md:grid-cols-3`). Spasi antar item diatur dengan `gap-6` yang memberi jarak sekitar 1.5rem antar gambar.
 
 Masing-masing `<img>` memiliki kumpulan class: `rounded-lg border-4 border-[chocolate] opacity-80 hover:opacity-100 hover:scale-105 transition transform`. Pertama, `rounded-lg` membuat sudut gambar membulat sehingga tampil lebih lembut dibandingkan kotak tajam. Lalu `border-4 border-[chocolate]` menambahkan garis tepi tebal dengan warna cokelat, yang memberi konsistensi dengan tema sidebar. Class `opacity-80` menurunkan transparansi default gambar, sehingga terlihat agak pudar. Ketika kursor diarahkan ke gambar, dua efek muncul: `hover:opacity-100` membuat gambar tampil jelas penuh, dan `hover:scale-105` membuat gambar sedikit membesar (zoom-in). Agar transisi ini tidak terasa kasar, class `transition transform` memastikan perubahannya berjalan dengan efek animasi yang halus.
+
+---
+## Postingan materi CSS (linkedin) :
+
+https://www.linkedin.com/posts/nabilah-anwar-7ba50832b_css-selektor-activity-7374428824593412097-EOQ0?utm_source=share&utm_medium=member_android&rcm=ACoAAFMw5n4B_KUyskMCO9pfe35f4I6YFjjlifo
+
+---
